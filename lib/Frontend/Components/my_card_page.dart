@@ -50,6 +50,7 @@ class _CardPageState extends State<CardPage> {
                     .colorScheme
                     .surface), // Icon for notifications
             onPressed: () {
+              //-----CHANGES MADE FROM HERE----
               showDialog(
                   barrierDismissible: false,
                   context: context,
@@ -88,6 +89,7 @@ class _CardPageState extends State<CardPage> {
                       ],
                     );
                   });
+              //------TO HERE-------
             },
           ),
         ],
